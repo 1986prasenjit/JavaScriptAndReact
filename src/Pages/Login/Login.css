@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+.form2Style {
+  width: 90%;
+  max-width: 500px;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  margin: 20px auto;
+  padding: 35px;
+  background-color: #f9f9f9;
+}
+
+.form2Heading {
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.queryText {
+  font-size: 15px;
+  color: #212121;
+}
+
+.logInText {
+  color: red;
+  margin: 10px 0;
+}
+.orDiv {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.buttonDiv {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin: 10px 0;
+  position: relative;
+}
+.btnStyle {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 15px;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+.btnBorder {
+  border: 2px solid rgba(138, 136, 136, 0.5);
+}
+.submitBtn {
+  font-size: 24px;
+}
+.btnStyle:hover {
+  background-color: darkblue;
+}
+@media screen and (max-width: 600px) {
+  .form2Style {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .form2Heading {
+    font-size: 18px;
+  }
+
+  .btnStyle {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
