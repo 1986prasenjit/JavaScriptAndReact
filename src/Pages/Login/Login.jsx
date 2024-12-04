@@ -9,8 +9,8 @@ const Login = () => {
         <h1 className="form2Heading">
           Get Started
         </h1>
-        <p className="queryText">Already have an account?</p>
-        <p className="queryText logInText">Log In</p>
+        <h2 className="queryText">Already have an account?</h2>
+        <h2 className="queryText logInText">Log In</h2>
         <div className="buttonDiv">
           <Button
             name={"sign up"}
