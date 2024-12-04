@@ -14,16 +14,23 @@ html {
 .inputBoxStyle {
   border: none;
   outline: none;
-  font-size: 15px;
+  font-size: 20px;
+  font-weight: 200;
   flex: 1;
+  background-color: transparent;
+  padding: 5px;
+  height: 50px;
+}
+::placeholder {
+  color: rgba(96, 96, 96, 0.562);
 }
 .inputGroupStyle:focus-within {
-  border: 2px solid #fb3d40;
+  border: 2px solid #e47369f1;
 }
 .inputIcon {
-  margin-right: 15px;
-  color: grey;
-  font-size: 15px;
+  margin: 0px 10px;
+  color: #000;
+  font-size: 18px;
 }
 .inputGroupStyle {
   display: flex;
@@ -31,16 +38,16 @@ html {
   margin: 10px 0px;
   border: 2px solid #ccc;
   border-radius: 5px;
-  padding: 8px;
-  /* width: 424px; */
+  padding: 5px;
   height: 50px;
+  box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.1);
 }
 .inputLabel {
-  font-size: 22px;
+  font-size: 19px;
+  font-weight:400;
 }
 @media screen and (max-width: 600px) {
   .inputGroupStyle {
-    /* width: 255px; */
     height: 35px;
   }
   .inputLabel {

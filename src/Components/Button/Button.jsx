@@ -12,5 +12,3 @@ const Button = ({ name, className, style, icon }) => {
 };
 
 export default Button;
-
-//<i className={`${icon} buttonIcon`}></i>

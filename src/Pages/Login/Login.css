@@ -1,5 +1,7 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 * {
   margin: 0;
@@ -8,7 +10,10 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
-  font-family: "Roboto";
+  font-family: "Manrope", sans-serif;
+}
+a{
+  text-decoration: none;
 }
 *,
 *::after,
@@ -19,29 +24,32 @@ html {
   width: 90%;
   max-width: 500px;
   border: 1px solid rgba(0, 0, 0, 0.6);
-  margin: 20px auto;
-  padding: 35px;
-  background-color: #f9f9f9;
+  margin: 15px auto;
+  padding: 30px;
+  background-color: #fff;
 }
 
 .form2Heading {
-  font-weight: 500;
-  font-size: 44px;
+  font-weight: 600;
+  font-size: 36.5px;
   margin-bottom: 10px;
 }
 .queryText {
-  font-size: 20px;
+  font-size: 17px;
   color: #212121;
+  font-weight: 500;
+  margin: 0 0 5px 0;
 }
 
 .logInText {
-  color: red;
-  margin: 10px 0;
+  color: rgb(241, 119, 119);
+  font-size: 16px;
+  font-weight: 700;
 }
 .orDiv {
   text-align: center;
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 28px;
+  font-weight: 300;
   margin: 25px 0 15px 0;
 }
 .buttonDiv {
@@ -51,6 +59,11 @@ html {
   margin: 10px 0;
   position: relative;
 }
+.outline-lock {
+  -webkit-text-stroke: 1px black; 
+  color: transparent;
+}
+
 @media screen and (max-width: 600px) {
   .form2Style {
     width: 90%;
