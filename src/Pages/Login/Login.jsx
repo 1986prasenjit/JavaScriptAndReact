@@ -2,12 +2,12 @@ import Button from "../../Components/Button/Button";
 import Inputs from "../../Components/Input/Input";
 import "./Login.css";
 
-const Login = ({ name, style }) => {
+const Login = () => {
   return (
     <>
       <form className="form2Style">
-        <h1 className="form2Heading" style={style}>
-          {name}
+        <h1 className="form2Heading">
+          Get Started
         </h1>
         <p className="queryText">Already have an account?</p>
         <p className="queryText logInText">Log In</p>
@@ -22,7 +22,7 @@ const Login = ({ name, style }) => {
             name={"sign up"}
             icon="fab fa-facebook"
             className="btnStyle"
-            style={{ backgroundColor: "#0F67B1", color: "#CAF4FF" }}
+            style={{ backgroundColor: "#0F67B1", color: "#fff" }}
           />
         </div>
         <div className="orDiv">Or</div>
@@ -32,23 +32,26 @@ const Login = ({ name, style }) => {
           type="text"
           icon="fas fa-user"
           label="Name"
+          id="name"
         />
         <Inputs
           type="email"
           placeHolder={"abc@gmail.com"}
           icon="fas fa-envelope"
           label="Email"
+          id="email"
         />
         <Inputs
           placeHolder={"Password"}
           type="password"
           icon="fas fa-lock"
           label="Password"
+          id="password"
         />
         <Button
           name={"Submit"}
           className="btnStyle submitBtn"
-          style={{ backgroundColor: "#FF8A8A", color: "white" }}
+          style={{ backgroundColor: "#fb3d40", color:"#fff"}}
         />
       </form>
     </>
